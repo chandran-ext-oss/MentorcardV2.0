@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  font-family: 'Satoshi', 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: 'lnum' 1, 'pnum' 1;
+  background: #fdf8f3;
+  color: #1c1830;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible { outline: 2px solid #5b44a8; outline-offset: 2px; }
